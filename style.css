@@ -1,0 +1,119 @@
+
+img{ 
+    width: 100%; 
+} 
+body { 
+  background-color: #f7f7f7; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  font-size: 13px; 
+} 
+main { 
+  width: 80%; 
+  height: 100vh; 
+ 
+  margin-top: 11px; 
+} 
+nav { 
+  width: 100%; 
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  background-color: #f8f8f8; 
+  padding: 13px; 
+  border-bottom: 1px solid #ccc; 
+} 
+.center ul { 
+  display: flex; 
+  list-style: none; 
+} 
+.center ul li a { 
+  padding: 17px; 
+  text-decoration: none; 
+} 
+.right form { 
+  display: flex; 
+  gap: 5px; 
+} 
+input[type="search"] { 
+  padding: 5px; 
+  border-radius: 5px; 
+  border: none; 
+} 
+.container { 
+  width: 100%; 
+ min-height: flex;  
+ 
+  flex-direction: column; 
+ align-items: center; 
+} 
+.row { 
+  width: 100%; 
+  height: 33.33%; 
+ 
+  display: flex; 
+  gap: 5px; 
+} 
+.row .card { 
+  width: 25%; 
+  background-color: rgb(98,72,72); 
+} 
+.card-1{ 
+ 
+ display: flex; 
+ flex-direction: column; 
+ justify-content: space-between; 
+ align-items: center; 
+ background-color: transparent !important; 
+ border: 1px solid #ccc; 
+} 
+.top{ 
+    width: 100%; 
+    background-color: black; 
+    color: 41,39,39; 
+    padding: 7px; 
+    text-align: center; 
+    background-color: transparent; 
+} 
+.content{ 
+    width: 100%; 
+    height: 70%; 
+  
+text-align: center; 
+color: white; 
+font-size: 11px; 
+padding: 7px; 
+} 
+.footer{ 
+    width: 100%; 
+    background-color: black; 
+    color: 93,90,90; 
+    text-align: center; 
+    padding: 7px; 
+    font-size: 11px; 
+    background-color: transparent; 
+    border-top: 1px solid #ccc; 
+} 
+.row-2{ 
+    margin-top: 11px; 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+   
+    background-color: #f5f0f0; 
+    padding: 17px; 
+  box-shadow: -4px 7px 3px -5px rgba(0,0,0,0.75); 
+-webkit-box-shadow: -4px 7px 3px -5px rgba(0,0,0,0.75); 
+-moz-box-shadow: -4px 7px 3px -5px rgba(0,0,0,0.75);; 
+} 
+.box{ 
+    width: 80%; 
+   
+}
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+} 
